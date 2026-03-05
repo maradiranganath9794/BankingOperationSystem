@@ -57,6 +57,13 @@ input { padding:8px; width:90% }
 <button type="submit">Withdraw</button>
 </form>
 
+<h3>Transfer Money (Account1 ➜ Account2)</h3>
+<form method="post" action="/transfer">
+<input type="number" name="amount" placeholder="Transfer Amount" required>
+<br>
+<button type="submit">Transfer</button>
+</form>
+
 </div>
 </body>
 </html>
